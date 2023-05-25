@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(207, 201, 201);
+}
+header{
+    height: 70vh;
+    background-image: url("./images/backgroundImage.jpg");
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+navbar{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(207, 201, 201);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+navbar h1{
+    align-self: baseline;
+    font-family: 'Poppins', sans-serif;
+    /* margin-left: 8%; */
+    margin: 0 0 0 8% !important;
+    position: relative;
+    top: -15px;
+    color: rgb(159, 0, 64);
+}
+h1 span{
+    color: green;
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:active{
+    color: rgb(159, 0, 64);
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    overflow: hidden;
+}
+.datails{
+    width: 50%;
+}
+.details p{
+    margin: 3% 0 3% 0;
+}
+.details h2{
+    color:rgb(159, 0, 64);
+}
+.details p a{
+    text-decoration: none;
+    color: black;
+
+}
+.details p a:active{
+    color: rgb(159, 0, 64);
+}
+.image{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+img{
+    height: 100%;
+    width: 50%;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(98, 198, 4);
+    height: 10vh;
+    text-align: center;
+    overflow-y: hidden;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
